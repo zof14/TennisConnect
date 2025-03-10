@@ -1,0 +1,68 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.card-cover{
+    height: 300px;;
+}
+#racket{
+    height: 400px;
+    width:100%;
+}
+
+.pricing-card-header {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .free-header {
+    background: linear-gradient(135deg, #4e73df, #1cc88a); 
+  }
+  
+  .pro-header {
+    background: linear-gradient(135deg, #f39c12, #e74a3b); 
+  }
+  
+
+#title {
+    background-image: url('./images/image.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#title .container {
+    height: 100%;
+}
+
+.title-text {
+    background-color: rgba(239, 147, 230, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.title-text h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.title-text p {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
